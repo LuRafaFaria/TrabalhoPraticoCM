@@ -1,0 +1,14 @@
+package ipca.followthroughapp.culinaria
+
+class RecipeFromID {
+
+    companion object
+    {
+        const val RECIPE_ID = "article_url"
+
+    }
+
+    //COLOCAR o CODIGO DE IR BUSCAR O ID DA POSIÇÂO ONDE FOI CARREGADA, ABRIR O LINK NO BACKEND COM A PESQUISA POR ID
+    //DEPOIS FAZER A MESMA COISA E LINKAR COM O RECIPEAPI PARA DEPOIS SE MOSTRAR O SITE ONDE SE ENCONTRA  A RECEITA E AS SUAS INFORMAÇÔES
+
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ipca.followthroughapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FollowThroughApp"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity android:name=".culinaria.MainCulinaria" />
+        <activity android:name=".culinaria.RecipeDetailActivity" />
+        <activity android:name=".culinaria.RecipeAPI" />
+        <activity android:name=".culinaria.RecipeAPIDetailActivity" />
+        <activity android:name=".culinaria.SearchedRecipeDetailActivity" />
+        <activity android:name=".culinaria.RecipeListView" />
+        <activity android:name=".estudos.MainEstudos" />
+        <activity android:name=".estudos.EstudosDetailActivity" />
+        <activity android:name=".treinos.MainTreinos" />
+        <activity android:name=".treinos.TreinosDetailActivity" />
+        <activity android:name=".custom.MainCustom" />
+        <activity android:name=".custom.CustomDetailActivity" />
+        <activity android:name=".culinaria.RecipeInput" />
+        <activity android:name=".custom.CustomInput" />
+        <activity android:name=".estudos.EstudosInput" />
+        <activity android:name=".treinos.TreinosInput" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
